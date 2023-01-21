@@ -1,0 +1,15 @@
+<%- include('header') %>
+<%- include('nav') %>
+
+
+<form class="container w-25 mt-5" action="/create" method="post">
+  <h1> <span class="text-success">Create </span>  Task....</h1>
+  <input type="text" class="form-control mb-3" placeholder="Title" name="title" />
+  <textarea name="desc" class="mb-3 form-control" placeholder="task description here..." rows="7"></textarea>
+  <button class="w-100 btn btn-info">Create Task</button>
+  <small>* all the fields are <span class="text-danger">mendotary</span>  to make task</small>
+</form>
+
+
+
+<%- include('footer') %>
